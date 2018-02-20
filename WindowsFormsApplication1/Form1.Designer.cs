@@ -1129,6 +1129,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "Exit";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 

@@ -61,5 +61,10 @@ namespace WindowsFormsApplication1
         {
             daftarBindingSource.MoveNext();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
